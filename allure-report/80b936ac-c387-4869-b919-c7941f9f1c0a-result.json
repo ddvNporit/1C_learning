@@ -1,0 +1,922 @@
+{
+	"uuid": "80b936ac-c387-4869-b919-c7941f9f1c0a",
+	"historyId": "02.Отражение поступление товара.ввод поступления товаров",
+	"name": "ввод поступления товаров",
+	"fullName": "02.закупки.feature_ввод поступления товаров",
+	"testCaseId": "1beb9c1cf7d549a5d83283c9789e37f9",
+	"start": 1726687466152,
+	"stop": 1726687482571,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Ввод документа",
+			"start": 1726687479489,
+			"stop": 1726687482096,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю \"Закупки\" \"Поступления товаров\"",
+					"start": 1726687479489,
+					"stop": 1726687479560,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Закупки"
+						},
+						{
+							"name": "Парам2",
+							"value": "Поступления товаров"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно \"Поступления товаров\"",
+					"start": 1726687479560,
+					"stop": 1726687479723,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поступления товаров"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+					"start": 1726687479724,
+					"stop": 1726687479732,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаСоздать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно \"Поступление товара (создание)\"",
+					"start": 1726687479733,
+					"stop": 1726687479858,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поступление товара (создание)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'Организация' я выбираю по строке \"ВА-организация\"",
+					"start": 1726687479859,
+					"stop": 1726687480141,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация"
+						},
+						{
+							"name": "Парам2",
+							"value": "ВА-организация"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'Склад' я выбираю по строке \"ВА-склад\"",
+					"start": 1726687480141,
+					"stop": 1726687480390,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Склад"
+						},
+						{
+							"name": "Парам2",
+							"value": "ВА-склад"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем 'Поставщик' я выбираю по строке \"ВА-поставщик (опт)\"",
+					"start": 1726687480390,
+					"stop": 1726687480827,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поставщик"
+						},
+						{
+							"name": "Парам2",
+							"value": "ВА-поставщик (опт)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' я активизирую поле с именем 'ТоварыТовар'",
+					"start": 1726687480827,
+					"stop": 1726687480834,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыТовар"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' я нажимаю на кнопку с именем 'ТоварыДобавить'",
+					"start": 1726687480835,
+					"stop": 1726687480843,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыДобавить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' из выпадающего списка с именем 'ТоварыТовар' я выбираю по строке \"ВА-товар\"",
+					"start": 1726687480844,
+					"stop": 1726687481156,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыТовар"
+						},
+						{
+							"name": "Парам3",
+							"value": "ВА-товар"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' в поле с именем 'ТоварыЦена' я ввожу текст \"100,00\"",
+					"start": 1726687481156,
+					"stop": 1726687481183,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыЦена"
+						},
+						{
+							"name": "Парам3",
+							"value": "100,00"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' в поле с именем 'ТоварыКоличество' я ввожу текст \"10,00\"",
+					"start": 1726687481183,
+					"stop": 1726687481219,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыКоличество"
+						},
+						{
+							"name": "Парам3",
+							"value": "10,00"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' я завершаю редактирование строки",
+					"start": 1726687481220,
+					"stop": 1726687481228,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' я нажимаю на кнопку с именем 'ТоварыДобавить'",
+					"start": 1726687481228,
+					"stop": 1726687481251,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыДобавить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' из выпадающего списка с именем 'ТоварыТовар' я выбираю по строке \"ВА-товар\"",
+					"start": 1726687481252,
+					"stop": 1726687481540,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыТовар"
+						},
+						{
+							"name": "Парам3",
+							"value": "ВА-товар"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' в поле с именем 'ТоварыЦена' я ввожу текст \"120,00\"",
+					"start": 1726687481540,
+					"stop": 1726687481569,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыЦена"
+						},
+						{
+							"name": "Парам3",
+							"value": "120,00"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' в поле с именем 'ТоварыКоличество' я ввожу текст \"12,00\"",
+					"start": 1726687481569,
+					"stop": 1726687481606,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыКоличество"
+						},
+						{
+							"name": "Парам3",
+							"value": "12,00"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Товары' я завершаю редактирование строки",
+					"start": 1726687481606,
+					"stop": 1726687481615,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+					"start": 1726687481615,
+					"stop": 1726687481634,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровестиИЗакрыть"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду закрытия окна \"Поступление товара (создание) *\" в течение 20 секунд",
+					"start": 1726687481634,
+					"stop": 1726687482096,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поступление товара (создание) *"
+						},
+						{
+							"name": "Парам2",
+							"value": 20
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Проверка заполнения",
+			"start": 1726687482097,
+			"stop": 1726687482403,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда открылось окно \"Поступления товаров\"",
+					"start": 1726687482097,
+					"stop": 1726687482100,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поступления товаров"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице 'Список' я выбираю текущую строку",
+					"start": 1726687482101,
+					"stop": 1726687482106,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем 'Организация' стал равен \"ВА-организация\"",
+					"start": 1726687482107,
+					"stop": 1726687482190,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация"
+						},
+						{
+							"name": "Парам2",
+							"value": "ВА-организация"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем 'Поставщик' стал равен \"ВА-поставщик (опт)\"",
+					"start": 1726687482191,
+					"stop": 1726687482195,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поставщик"
+						},
+						{
+							"name": "Парам2",
+							"value": "ВА-поставщик (опт)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем 'Склад' стал равен \"ВА-склад\"",
+					"start": 1726687482195,
+					"stop": 1726687482198,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Склад"
+						},
+						{
+							"name": "Парам2",
+							"value": "ВА-склад"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И таблица 'Товары' стала равной:",
+					"start": 1726687482198,
+					"stop": 1726687482220,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "4dfb13b5-daf1-4f72-8c24-ec9a70a90f86-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем 'ТоварыИтогКоличество' стал равен \"22\"",
+					"start": 1726687482220,
+					"stop": 1726687482225,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТоварыИтогКоличество"
+						},
+						{
+							"name": "Парам2",
+							"value": "22"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Когда открылось окно \"Поступление товара * от *\"",
+					"start": 1726687482226,
+					"stop": 1726687482231,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поступление товара * от *"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И В текущем окне я нажимаю кнопку командного интерфейса \"Регистр взаиморасчетов с контрагентами\"",
+					"start": 1726687482231,
+					"stop": 1726687482244,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Регистр взаиморасчетов с контрагентами"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" количество строк \"равно\" 1 Тогда",
+					"start": 1726687482244,
+					"stop": 1726687482403,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						},
+						{
+							"name": "Парам2",
+							"value": "равно"
+						},
+						{
+							"name": "Парам3",
+							"value": 1
+						}
+					],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Тогда таблица 'Список' стала равной по шаблону:",
+							"start": 1726687482373,
+							"stop": 1726687482403,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Список"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "687178d9-f90f-4ca7-b392-1bed7d630a68-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Остатки",
+			"start": 1726687482403,
+			"stop": 1726687482570,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Когда открылось окно \"Поступление товара * от *\"",
+					"start": 1726687482403,
+					"stop": 1726687482407,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поступление товара * от *"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И В текущем окне я нажимаю кнопку командного интерфейса \"Регистр товарных запасов\"",
+					"start": 1726687482407,
+					"stop": 1726687482412,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Регистр товарных запасов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" количество строк \"равно\" 2 Тогда",
+					"start": 1726687482412,
+					"stop": 1726687482570,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						},
+						{
+							"name": "Парам2",
+							"value": "равно"
+						},
+						{
+							"name": "Парам3",
+							"value": 2
+						}
+					],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И таблица \"Список\" содержит строки из макета \"..\\examples\\закупки_движения1.mxl\" по шаблону",
+							"start": 1726687482526,
+							"stop": 1726687482570,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Список"
+								},
+								{
+									"name": "Парам2",
+									"value": "..\\examples\\закупки_движения1.mxl"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "ввод поступления товаров"
+		},
+		{
+			"name": "feature",
+			"value": "ввод поступления товаров"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "tests"
+		},
+		{
+			"name": "host",
+			"value": "nettop"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

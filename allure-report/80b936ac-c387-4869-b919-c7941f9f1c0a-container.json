@@ -1,0 +1,47 @@
+{
+	"uuid": "92913e13-8b47-41cf-8b6e-2f96e79459df",
+	"name": "Контекст_ввод поступления товаров",
+	"description": "",
+	"children": [
+		"80b936ac-c387-4869-b919-c7941f9f1c0a"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"УП-Менеджер по закупкам\" из таблицы клиентов тестирования",
+			"start": 1726687466232,
+			"stop": 1726687479044,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УП-Менеджер по закупкам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1726687479161,
+			"stop": 1726687479380,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,59 @@
+{
+	"uuid": "f2bd789f-5043-4639-ae9b-e151fafaa6ae",
+	"historyId": "02.Отражение поступление товара.Закрытие клиента тестирования",
+	"name": "Закрытие клиента тестирования",
+	"fullName": "02.закупки.feature_закрытие клиента тестирования",
+	"testCaseId": "10ce470e373b320b40e037d499249323",
+	"start": 1726687483258,
+	"stop": 1726687486463,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю сеанс текущего клиента тестирования",
+			"start": 1726687484235,
+			"stop": 1726687486462,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Закрытие клиента тестирования"
+		},
+		{
+			"name": "feature",
+			"value": "Закрытие клиента тестирования"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "tests"
+		},
+		{
+			"name": "host",
+			"value": "nettop"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

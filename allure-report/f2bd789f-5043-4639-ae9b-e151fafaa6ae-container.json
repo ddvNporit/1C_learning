@@ -1,0 +1,47 @@
+{
+	"uuid": "caa6d460-3a38-46e0-8b8a-838d212bf202",
+	"name": "Контекст_Закрытие клиента тестирования",
+	"description": "",
+	"children": [
+		"f2bd789f-5043-4639-ae9b-e151fafaa6ae"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"УП-Менеджер по закупкам\" из таблицы клиентов тестирования",
+			"start": 1726687483281,
+			"stop": 1726687483759,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УП-Менеджер по закупкам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1726687483904,
+			"stop": 1726687484129,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

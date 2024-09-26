@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<uilog xmlns:d1p1="http://v8.1c.ru/8.3/uilog">
+	<ClientApplicationWindow isMain="true">
+		<CommandInterface>
+			<CommandInterfaceGroup title="Панель разделов">
+				<CommandInterfaceButton title="Товарные запасы">
+					<click/>
+				</CommandInterfaceButton>
+			</CommandInterfaceGroup>
+			<CommandInterfaceGroup title="Меню функций">
+				<CommandInterfaceGroup title="Цены">
+					<CommandInterfaceButton title="Виды цен">
+						<click/>
+					</CommandInterfaceButton>
+				</CommandInterfaceGroup>
+			</CommandInterfaceGroup>
+		</CommandInterface>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Виды цен">
+		<Form title="Виды цен">
+			<FormGroup name="ФормаКоманднаяПанель" title="Командная панель">
+				<FormButton name="ФормаСоздать" title="Создать">
+					<click/>
+				</FormButton>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Вид цены (создание)">
+		<Form title="Вид цены (создание)">
+			<FormField name="Наименование" title="Наименование">
+				<inputText text="ВА-оптовая"/>
+			</FormField>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Вид цены (создание) *">
+		<Form title="Вид цены (создание) *">
+			<FormGroup name="ФормаКоманднаяПанель" title="Командная панель">
+				<FormButton name="ФормаЗаписатьИЗакрыть" title="Записать и закрыть">
+					<click/>
+				</FormButton>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Виды цен">
+		<close/>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow startPage="true">
+		<close/>
+	</ClientApplicationWindow>
+</uilog>
