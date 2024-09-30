@@ -1,0 +1,47 @@
+{
+	"uuid": "234a6788-ed73-43a1-bde3-167d175105f2",
+	"name": "Контекст_Создаю номенклатуру",
+	"description": "",
+	"children": [
+		"da200dba-f8ff-428e-8f3e-a96371f10949"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"УП-Администратор\" из таблицы клиентов тестирования",
+			"start": 1727703016312,
+			"stop": 1727703017265,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УП-Администратор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1727703017391,
+			"stop": 1727703017613,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

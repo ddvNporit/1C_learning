@@ -1,0 +1,47 @@
+{
+	"uuid": "bf33ea9e-487f-45ba-9409-d1ab3281a33e",
+	"name": "Контекст_Создание организации",
+	"description": "",
+	"children": [
+		"cc80528f-eda7-4ba6-8a04-dc886cff180f"
+	],
+	"befores": [
+		{
+			"name": "И Я подключаю клиент тестирования \"УП-Администратор\" из таблицы клиентов тестирования",
+			"start": 1727703029345,
+			"stop": 1727703030302,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УП-Администратор"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1727703030436,
+			"stop": 1727703030712,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

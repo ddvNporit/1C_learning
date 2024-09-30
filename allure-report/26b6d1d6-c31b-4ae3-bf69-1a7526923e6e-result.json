@@ -1,11 +1,11 @@
 {
-	"uuid": "f2bd789f-5043-4639-ae9b-e151fafaa6ae",
-	"historyId": "02.Отражение поступление товара.Закрытие клиента тестирования",
+	"uuid": "26b6d1d6-c31b-4ae3-bf69-1a7526923e6e",
+	"historyId": "01.Ввод НСИ.Закрытие клиента тестирования",
 	"name": "Закрытие клиента тестирования",
-	"fullName": "02.закупки.feature_закрытие клиента тестирования",
-	"testCaseId": "10ce470e373b320b40e037d499249323",
-	"start": 1726687483258,
-	"stop": 1726687486463,
+	"fullName": "1c_learning/01.ввод нси.feature_закрытие клиента тестирования",
+	"testCaseId": "69242be8a51f592bed916acdb3115cc2",
+	"start": 1727703042185,
+	"stop": 1727703045937,
 	"statusDetails": {
 		"known": false,
 		"muted": false,
@@ -16,8 +16,8 @@
 	"steps": [
 		{
 			"name": "И я закрываю сеанс текущего клиента тестирования",
-			"start": 1726687484235,
-			"stop": 1726687486462,
+			"start": 1727703043601,
+			"stop": 1727703045937,
 			"status": "passed",
 			"stage": "finished",
 			"statusDetails": {
@@ -46,7 +46,7 @@
 		},
 		{
 			"name": "package",
-			"value": "tests"
+			"value": "1C_learning"
 		},
 		{
 			"name": "host",
